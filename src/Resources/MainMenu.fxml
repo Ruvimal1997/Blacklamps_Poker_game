@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Resources.MainMenu"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="498.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Resources.MainMenu">
+   <children>
+      <Pane fx:id="Pane" layoutX="7.0" layoutY="8.0" prefHeight="485.0" prefWidth="677.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#ee0909" spread="0.69" />
+         </effect>
+         <children>
+            <Button fx:id="Btn_JoinGame" layoutX="262.0" layoutY="163.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="Join Game">
+               <font>
+                  <Font name="Calibri Light" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="264.0" layoutY="87.0" styleClass="subheader" text="Log In to play " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
+            <Button fx:id="notificationButton" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" onAction="#notificationClick" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
+            <Button fx:id="instructionButton" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" onAction="#instructionMenuAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
+            <Button fx:id="instructionButton1" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" onAction="#instructionMenuAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
+         </children>
+      </Pane>
+      <Label fx:id="userNameLabel" layoutX="24.0" layoutY="24.0" text="UserName" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
