@@ -14,7 +14,8 @@ public class Login extends Application {
         launch(args);
     }
     @Override
-    public void start(Stage stage) throws Exception{
+    public void start(Stage stage) throws Exception
+    {
         Parent root = FXMLLoader.load(getClass().getResource("/Resources/Login.fxml"));
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/Resources/CSS.css");

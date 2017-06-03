@@ -64,6 +64,7 @@ public class LoginController implements Initializable
     @FXML
     public void handleSignUpAction(ActionEvent event) throws IOException
     {
+        //Code that directs to the signup screen
         Stage stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("/Resources/SignUp.fxml"));
         Scene scene = new Scene(root);

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="589.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Resources.About">
+   <children>
+      <Pane fx:id="Pane" layoutX="13.0" layoutY="10.0" prefHeight="569.0" prefWidth="855.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#ee0909" spread="0.69" />
+         </effect>
+         <children>
+            <Label layoutX="228.0" layoutY="93.0" styleClass="subheader" text="Development Team" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
