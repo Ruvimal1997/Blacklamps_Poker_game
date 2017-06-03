@@ -49,7 +49,17 @@ public class LoginController implements Initializable
     @FXML
     private void handleLogin(ActionEvent event) throws IOException
     {
-
+        //Login code should be written
+        Stage stage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("/Resources/MainMenu.fxml"));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("/Resources/CSS.css");
+        stage.setResizable(false);
+        stage.initStyle(StageStyle.UNDECORATED);
+        stage.setScene(scene);
+        stage.show();
+        stage = (Stage) Btn_login.getScene().getWindow();
+        stage.close();
     }
     @FXML
     public void handleSignUpAction(ActionEvent event) throws IOException
