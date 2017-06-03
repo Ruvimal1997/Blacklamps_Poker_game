@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="501.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.SignupController">
    <children>
       <Pane fx:id="Pane" layoutX="6.0" layoutY="8.0" prefHeight="486.0" prefWidth="653.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
@@ -18,7 +17,7 @@
             <DropShadow blurType="GAUSSIAN" color="#ee0909" spread="0.69" />
          </effect>
          <children>
-            <Button fx:id="Btn_signup" layoutX="227.0" layoutY="386.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="Sign Up">
+            <Button fx:id="Btn_signup" layoutX="226.0" layoutY="363.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="Sign Up">
                <font>
                   <Font name="Calibri Light" size="14.0" />
                </font>
@@ -39,12 +38,12 @@
                   <Font name="Arial" size="18.0" />
                </font>
             </TextField>
-            <TextField fx:id="Txt_Age" alignment="CENTER" layoutX="43.0" layoutY="229.0" prefHeight="33.0" prefWidth="141.0" promptText="Age">
+            <TextField fx:id="Txt_Age" alignment="CENTER" layoutX="43.0" layoutY="229.0" prefHeight="33.0" prefWidth="283.0" promptText="Age">
                <font>
                   <Font name="Arial" size="18.0" />
                </font>
             </TextField>
-            <ComboBox fx:id="Cmb_Country" layoutX="346.0" layoutY="233.0" prefHeight="25.0" prefWidth="260.0" promptText="Country" />
+            <ComboBox fx:id="Cmb_Country" layoutX="346.0" layoutY="229.0" prefHeight="33.0" prefWidth="260.0" promptText="Country" />
             <PasswordField fx:id="Pwd" alignment="CENTER" layoutX="43.0" layoutY="270.0" prefHeight="33.0" prefWidth="283.0" promptText="Password">
                <font>
                   <Font name="Arial" size="18.0" />
