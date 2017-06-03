@@ -14,7 +14,7 @@
             <DropShadow blurType="GAUSSIAN" color="#ee0909" spread="0.69" />
          </effect>
          <children>
-            <Button fx:id="Btn_JoinGame" layoutX="262.0" layoutY="163.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="Join Game">
+            <Button fx:id="Btn_JoinGame" layoutX="262.0" layoutY="163.0" mnemonicParsing="false" onAction="#JoingameAction" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="Join Game">
                <font>
                   <Font name="Calibri Light" size="14.0" />
                </font>

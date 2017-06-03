@@ -44,6 +44,20 @@ public class MainMenuController implements Initializable {
 
     }
     @FXML
+    void JoingameAction(ActionEvent event) throws IOException{
+        Stage stagejoin = new Stage();
+        Parent root4 = FXMLLoader.load(getClass().getResource("/Resources/JoinGame.fxml"));
+        Scene scene = new Scene(root4);
+        scene.getStylesheets().add("/Resources/CSS.css");
+        stagejoin.setResizable(false);
+        stagejoin.initStyle(StageStyle.UNDECORATED);
+        stagejoin.setScene(scene);
+        stagejoin.show();
+        stagejoin = (Stage) Btn_JoinGame.getScene().getWindow();
+        stagejoin.close();
+    }
+
+    @FXML
     void HelpScreenAction(ActionEvent event)throws IOException {
         Stage stagehelp = new Stage();
         Parent root1 = FXMLLoader.load(getClass().getResource("/Resources/Help.fxml"));
