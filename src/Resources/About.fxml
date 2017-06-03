@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="589.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Resources.About">
+<AnchorPane prefHeight="589.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.AboutController">
    <children>
       <Pane fx:id="Pane" layoutX="13.0" layoutY="10.0" prefHeight="569.0" prefWidth="855.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
          <effect>

@@ -25,9 +25,9 @@
                </font>
             </Label>
             <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
-            <Button fx:id="Btn_Setting" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
-            <Button fx:id="Btn_About" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
-            <Button fx:id="Btn_Help" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
+            <Button fx:id="Btn_Setting" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" onAction="#SettingScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
+            <Button fx:id="Btn_About" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" onAction="#AboutScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
+            <Button fx:id="Btn_Help" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" onAction="#HelpScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
          </children>
       </Pane>
       <Label fx:id="userNameLabel" layoutX="24.0" layoutY="24.0" text="UserName" textFill="WHITE">

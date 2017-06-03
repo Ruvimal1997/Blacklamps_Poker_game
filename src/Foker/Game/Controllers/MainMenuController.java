@@ -46,7 +46,7 @@ public class MainMenuController implements Initializable {
     @FXML
     void HelpScreenAction(ActionEvent event)throws IOException {
         Stage stagehelp = new Stage();
-        Parent root1 = FXMLLoader.load(getClass().getResource("/Resources/About.fxml"));
+        Parent root1 = FXMLLoader.load(getClass().getResource("/Resources/Help.fxml"));
         Scene scene = new Scene(root1);
         scene.getStylesheets().add("/Resources/CSS.css");
         stagehelp.setResizable(false);
@@ -72,14 +72,14 @@ public class MainMenuController implements Initializable {
     @FXML
     void SettingScreenAction(ActionEvent event) throws IOException{
         Stage stagesettings = new Stage();
-        Parent root3 = FXMLLoader.load(getClass().getResource("/Resources/About.fxml"));
+        Parent root3 = FXMLLoader.load(getClass().getResource("/Resources/Settings.fxml"));
         Scene scene = new Scene(root3);
         scene.getStylesheets().add("/Resources/CSS.css");
         stagesettings.setResizable(false);
         stagesettings.initStyle(StageStyle.UNDECORATED);
         stagesettings.setScene(scene);
         stagesettings.show();
-        stagesettings = (Stage) Btn_About.getScene().getWindow();
+        stagesettings = (Stage) Btn_Setting.getScene().getWindow();
         stagesettings.close();
     }
 }
