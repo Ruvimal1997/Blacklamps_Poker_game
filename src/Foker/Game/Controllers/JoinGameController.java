@@ -36,7 +36,7 @@ public class JoinGameController implements Initializable
     {
         Cmb_SelectPlayer.getItems().removeAll(Cmb_SelectPlayer.getItems());
         Cmb_SelectPlayer.getItems().addAll("2", "3","4","5","6");
-        Cmb_SelectPlayer.getSelectionModel().select("Option B");
+        Cmb_SelectPlayer.getSelectionModel().select("Select No");
 
     }
     @FXML
