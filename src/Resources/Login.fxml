@@ -38,12 +38,12 @@
                </font>
             </Label>
             <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
-            <Label layoutX="237.0" layoutY="260.0" text="Doesn't have a Account yet... " textFill="WHITE">
+            <Label layoutX="249.0" layoutY="260.0" text="Don't have an Account yet... " textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Hyperlink fx:id="signUpLink" layoutX="473.0" layoutY="256.0" text="SignUp" textFill="WHITE">
+            <Hyperlink fx:id="signUpLink" layoutX="473.0" layoutY="256.0" onAction="#handleSignUpAction" text="SignUp" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
