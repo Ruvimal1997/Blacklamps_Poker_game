@@ -23,7 +23,7 @@
             </Label>
             <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
             <Button fx:id="Btn_Play" layoutX="262.0" layoutY="220.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Play" />
-            <ComboBox layoutX="262.0" layoutY="148.0" prefHeight="50.0" prefWidth="200.0" promptText="Select Players" styleClass="orangeButton" stylesheets="@CSS.css" />
+            <ComboBox fx:id="Cmb_SelectPlayer" layoutX="262.0" layoutY="148.0" prefHeight="50.0" prefWidth="200.0" promptText="Select Players" styleClass="orangeButton" stylesheets="@CSS.css" />
          </children>
       </Pane>
    </children>
