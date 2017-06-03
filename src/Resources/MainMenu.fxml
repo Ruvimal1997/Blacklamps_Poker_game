@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="498.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Resources.MainMenu">
+<AnchorPane prefHeight="498.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.MainMenuController">
    <children>
       <Pane fx:id="Pane" layoutX="7.0" layoutY="8.0" prefHeight="485.0" prefWidth="677.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
          <effect>
@@ -26,9 +25,9 @@
                </font>
             </Label>
             <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
-            <Button fx:id="notificationButton" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" onAction="#notificationClick" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
-            <Button fx:id="instructionButton" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" onAction="#instructionMenuAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
-            <Button fx:id="instructionButton1" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" onAction="#instructionMenuAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
+            <Button fx:id="Btn_Setting" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
+            <Button fx:id="Btn_About" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
+            <Button fx:id="Btn_Help" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
          </children>
       </Pane>
       <Label fx:id="userNameLabel" layoutX="24.0" layoutY="24.0" text="UserName" textFill="WHITE">
