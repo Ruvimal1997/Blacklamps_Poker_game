@@ -20,7 +20,6 @@ public class Login extends Application {
         scene.getStylesheets().add("/Resources/CSS.css");
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Foker Game");
-        String s;
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
