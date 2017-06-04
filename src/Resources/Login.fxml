@@ -9,37 +9,37 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.LoginController">
+<AnchorPane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.LoginController">
    <children>
-      <Pane fx:id="Pane" layoutY="-1.0" prefHeight="607.0" prefWidth="942.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
+      <Pane fx:id="Pane" layoutY="-6.0" prefHeight="482.0" prefWidth="624.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
          <children>
-            <Button fx:id="Btn_login" layoutX="262.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="LOG IN">
+            <Button fx:id="Btn_login" layoutX="237.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="LOG IN">
                <font>
                   <Font name="Calibri Light" size="14.0" />
                </font>
             </Button>
-            <TextField fx:id="Txt_username" alignment="CENTER" layoutX="258.0" layoutY="151.0" prefHeight="30.0" prefWidth="200.0" promptText="User Name">
+            <TextField fx:id="Txt_username" alignment="CENTER" layoutX="237.0" layoutY="182.0" prefHeight="30.0" prefWidth="200.0" promptText="User Name">
                <font>
                   <Font name="Arial" size="18.0" />
                </font>
             </TextField>
-            <PasswordField fx:id="Txt_password" alignment="CENTER" layoutX="258.0" layoutY="199.0" prefHeight="30.0" prefWidth="200.0" promptText="Password">
+            <PasswordField fx:id="Txt_password" alignment="CENTER" layoutX="237.0" layoutY="230.0" prefHeight="30.0" prefWidth="200.0" promptText="Password">
                <font>
                   <Font name="Arial" size="18.0" />
                </font>
             </PasswordField>
-            <Label layoutX="264.0" layoutY="87.0" styleClass="subheader" text="Log In to play " textFill="WHITE">
+            <Label layoutX="239.0" layoutY="123.0" styleClass="subheader" text="Log In to play " textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
-            <Label layoutX="249.0" layoutY="260.0" text="Don't have an Account yet... " textFill="WHITE">
+            <Label layoutX="177.0" layoutY="40.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
+            <Label layoutX="189.0" layoutY="285.0" text="Don't have an Account yet... " textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Hyperlink fx:id="signUpLink" layoutX="473.0" layoutY="256.0" onAction="#handleSignUpAction" text="SignUp" textFill="WHITE">
+            <Hyperlink fx:id="signUpLink" layoutX="415.0" layoutY="281.0" onAction="#handleSignUpAction" text="SignUp" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
