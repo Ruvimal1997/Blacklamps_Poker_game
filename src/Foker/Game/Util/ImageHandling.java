@@ -85,6 +85,7 @@ public class ImageHandling {
             case "JH" :sImageName = Hj;break;
             case "QH" :sImageName = Hq;break;
             case "KH" :sImageName = Hk;break;//end
+
             case "AD" :sImageName = DA;break;
             case "2D" :sImageName = D2;break;
             case "3D" :sImageName = D3;break;
@@ -94,10 +95,11 @@ public class ImageHandling {
             case "7D" :sImageName = D7;break;
             case "8D" :sImageName = D8;break;
             case "9D" :sImageName = D9;break;
-            case "10D" :sImageName = D10;break;
+            case "10D":sImageName = D10;break;
             case "JD" :sImageName = Dj;break;
             case "QD" :sImageName = Dq;break;
             case "KD" :sImageName = Dk;break;//end
+
             case "AC" :sImageName = CA;break;
             case "2C" :sImageName = C2;break;
             case "3C" :sImageName = C3;break;
@@ -111,6 +113,7 @@ public class ImageHandling {
             case "JC" :sImageName = Cj;break;
             case "QC" :sImageName = Cq;break;
             case "KC" :sImageName = Ck;break;//end
+
             case "AS" :sImageName = SA;break;
             case "2S" :sImageName = S2;break;
             case "3S" :sImageName = S3;break;
