@@ -1,4 +1,4 @@
-package dto;
+package Foker.Game.dto;
 
 /**
  * Created by Ruvimal Senanayake on 04/06/2017.

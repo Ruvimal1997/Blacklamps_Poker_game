@@ -1,4 +1,4 @@
-package dto;
+package Foker.Game.dto;
 
 import java.util.Random;
 
