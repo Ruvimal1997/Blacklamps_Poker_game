@@ -64,4 +64,69 @@ public class ImageHandling {
     private final static String Sj = "/Images/Spades/spades_jack.png";
     private final static String Sq = "/Images/Spades/spades_queen.png";
     private final static String Sk = "/Images/Spades/spades_king.png";
+
+    public static final String getImage(String sCard ) {
+
+        String sImageName ="Hide.png";// "Hide image" defualt
+
+        switch(sCard) {
+
+            case "AH" :sImageName = HA;break;
+            case "2H" :sImageName = H2;break;
+            case "3H" :sImageName = H3;break;
+            case "4H" :sImageName = H4;break;
+            case "5H" :sImageName = H5;break;
+            case "6H" :sImageName = H6;break;
+            case "7H" :sImageName = H7;break;
+            case "8H" :sImageName = H8;break;
+            case "9H" :sImageName = H9;break;
+            case "10H" :sImageName = H10;break;
+            case "JH" :sImageName = Hj;break;
+            case "QH" :sImageName = Hq;break;
+            case "KH" :sImageName = Hk;break;//end
+            case "AD" :sImageName = DA;break;
+            case "2D" :sImageName = D2;break;
+            case "3D" :sImageName = D3;break;
+            case "4D" :sImageName = D4;break;
+            case "5D" :sImageName = D5;break;
+            case "6D" :sImageName = D6;break;
+            case "7D" :sImageName = D7;break;
+            case "8D" :sImageName = D8;break;
+            case "9D" :sImageName = D9;break;
+            case "10D" :sImageName = D10;break;
+            case "JD" :sImageName = Dj;break;
+            case "QD" :sImageName = Dq;break;
+            case "KD" :sImageName = Dk;break;//end
+            case "AC" :sImageName = CA;break;
+            case "2C" :sImageName = C2;break;
+            case "3C" :sImageName = C3;break;
+            case "4C" :sImageName = C4;break;
+            case "5C" :sImageName = C5;break;
+            case "6C" :sImageName = C6;break;
+            case "7C" :sImageName = C7;break;
+            case "8C" :sImageName = C8;break;
+            case "9C" :sImageName = C9;break;
+            case "10C" :sImageName = C10;break;
+            case "JC" :sImageName = Cj;break;
+            case "QC" :sImageName = Cq;break;
+            case "KC" :sImageName = Ck;break;//end
+            case "AS" :sImageName = SA;break;
+            case "2S" :sImageName = S2;break;
+            case "3S" :sImageName = S3;break;
+            case "4S" :sImageName = S4;break;
+            case "5S" :sImageName = S5;break;
+            case "6S" :sImageName = S6;break;
+            case "7S" :sImageName = S7;break;
+            case "8S" :sImageName = S8;break;
+            case "9S" :sImageName = S9;break;
+            case "10S" :sImageName = S10;break;
+            case "JS" :sImageName = Sj;break;
+            case "QS" :sImageName = Sq;break;
+            case "KS" :sImageName = Sk;break;
+
+            default:
+                sImageName ="Hide.png";break;
+        }
+        return sImageName;
+    }
 }
