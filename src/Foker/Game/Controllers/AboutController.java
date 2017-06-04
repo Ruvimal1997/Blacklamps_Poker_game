@@ -32,7 +32,8 @@ public class AboutController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
     }
-    void About_Back(ActionEvent event)  throws IOException{
+    @FXML
+    void About_Back(ActionEvent event) throws IOException{
         Stage stageback = new Stage();
         Parent root5 = FXMLLoader.load(getClass().getResource("/Resources/MainMenu.fxml"));
         Scene scene = new Scene(root5);
