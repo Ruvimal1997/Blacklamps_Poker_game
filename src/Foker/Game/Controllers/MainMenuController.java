@@ -39,10 +39,38 @@ public class MainMenuController implements Initializable {
     @FXML
     private Label userNameLabel;
 
+    @FXML
+    private Button Btn_Back;
+
+    @FXML
+    private Button Btn_Exit;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
     }
+
+    @FXML
+    void BackBtnAction(ActionEvent event) throws IOException {
+        Stage stageback = new Stage();
+        Parent root5 = FXMLLoader.load(getClass().getResource("/Resources/Login.fxml"));
+        Scene scene = new Scene(root5);
+        scene.getStylesheets().add("/Resources/CSS.css");
+        stageback.setResizable(false);
+        stageback.initStyle(StageStyle.UNDECORATED);
+        stageback.setScene(scene);
+        stageback.show();
+        stageback = (Stage) Btn_Back.getScene().getWindow();
+        stageback.close();
+    }
+
+    @FXML
+    void ExitBtnAction(ActionEvent event) {
+        Stage stage = (Stage) Btn_Exit.getScene().getWindow();
+        stage.close();
+        System.exit(0);
+    }
+
     @FXML
     void JoingameAction(ActionEvent event) throws IOException{
         Stage stagejoin = new Stage();

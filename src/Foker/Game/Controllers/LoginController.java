@@ -41,11 +41,22 @@ public class LoginController implements Initializable
     @FXML
     private Hyperlink signUpLink;
 
+    @FXML
+    private Button Btn_Exit;
+
     @Override
     public void initialize(URL location, ResourceBundle resources)
     {
 
     }
+
+    @FXML
+    void ExitButtonAction(ActionEvent event) {
+        Stage stage = (Stage) Btn_Exit.getScene().getWindow();
+        stage.close();
+        System.exit(0);
+    }
+
     @FXML
     private void handleLogin(ActionEvent event) throws IOException
     {
