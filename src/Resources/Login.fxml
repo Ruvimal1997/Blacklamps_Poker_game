@@ -33,7 +33,7 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Label layoutX="177.0" layoutY="40.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
+            <Label layoutX="177.0" layoutY="40.0" styleClass="mainheader" stylesheets="@CSS.css" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
             <Label layoutX="189.0" layoutY="285.0" text="Don't have an Account yet... " textFill="WHITE">
                <font>
                   <Font size="18.0" />
