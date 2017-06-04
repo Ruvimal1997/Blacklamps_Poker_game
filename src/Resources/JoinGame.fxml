@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="503.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.JoinGameController">
    <children>
-      <Pane fx:id="Pane" layoutX="12.0" layoutY="9.0" prefHeight="485.0" prefWidth="679.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
+      <Pane fx:id="Pane" layoutX="12.0" layoutY="9.0" prefHeight="492.0" prefWidth="687.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
          <effect>
             <DropShadow blurType="GAUSSIAN" color="#ee0909" spread="0.69" />
          </effect>
@@ -23,6 +23,8 @@
             <Label layoutX="202.0" layoutY="14.0" styleClass="mainheader" text="Foker Game" textAlignment="CENTER" textFill="WHITE" />
             <Button fx:id="Btn_Play" layoutX="262.0" layoutY="220.0" mnemonicParsing="false" onAction="#JoinGameAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Play" />
             <ComboBox fx:id="Cmb_SelectPlayer" layoutX="262.0" layoutY="148.0" prefHeight="50.0" prefWidth="200.0" promptText="Select Players" styleClass="orangeButton" stylesheets="@CSS.css" />
+            <Button fx:id="Btn_Back" layoutX="17.0" layoutY="422.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" styleClass="backButton" text="BACK" />
+            <Button fx:id="Btn_Exit" layoutX="590.0" layoutY="422.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" styleClass="exitButton" text="EXIT" />
          </children>
       </Pane>
    </children>

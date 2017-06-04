@@ -28,6 +28,8 @@
             <Button fx:id="Btn_Setting" layoutX="262.0" layoutY="221.0" mnemonicParsing="false" onAction="#SettingScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Setting" />
             <Button fx:id="Btn_About" layoutX="262.0" layoutY="281.0" mnemonicParsing="false" onAction="#AboutScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="About" />
             <Button fx:id="Btn_Help" layoutX="262.0" layoutY="344.0" mnemonicParsing="false" onAction="#HelpScreenAction" prefHeight="45.0" prefWidth="200.0" styleClass="orangeButton" text="Help" />
+            <Button id="Btn_Back" fx:id="Btn_Back" layoutX="16.0" layoutY="422.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" styleClass="backButton" text="BACK" />
+            <Button id="Btn_Exit" fx:id="Btn_Exit" layoutX="589.0" layoutY="422.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" styleClass="exitButton" text="EXIT" />
          </children>
       </Pane>
       <Label fx:id="userNameLabel" layoutX="24.0" layoutY="24.0" text="UserName" textFill="WHITE">
