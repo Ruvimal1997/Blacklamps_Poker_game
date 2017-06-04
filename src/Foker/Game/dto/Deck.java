@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by Ruvimal Senanayake 04/06/2017.
  */
 public class Deck {
-    // Data type get from 'Card' class
+    // Data type get from Card class
     private Card deck[];//array of  Card object
     private int currentCard ;
     private final int NUMBER_OF_CARD = 52; //52 is constant value Can't be Change
@@ -19,7 +19,7 @@ public class Deck {
         String suits[] ={"H","D","C","S"};
 
         //String faces[] = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"};
-        //String suits[] ={"Haerts","Diamond","Clubs","Spades"};
+        //String suits[] ={"Hearts","Diamond","Clubs","Spades"};
         //52 card value assign to the deck[] array
         deck = new Card[NUMBER_OF_CARD];
         currentCard = 0;
@@ -32,12 +32,10 @@ public class Deck {
         }
 
 
-    }//end Constructor
-
-
+    }
     //shuffle deckPack
     public void shuffle(){
-        //after shuffle ,deal should be star at deck[0] again.
+        //after shuffle, deal should be star at deck[0] again.
         currentCard = 0;
         for (int first = 0; first < deck.length; first++) {
 
