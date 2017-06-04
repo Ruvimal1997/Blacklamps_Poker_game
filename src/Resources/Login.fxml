@@ -11,6 +11,7 @@
 
 <AnchorPane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Foker.Game.Controllers.LoginController">
    <children>
+
       <Pane fx:id="Pane" layoutY="-6.0" prefHeight="482.0" prefWidth="624.0" styleClass="mainFxmlClass" stylesheets="@CSS.css">
          <children>
             <Button fx:id="Btn_login" layoutX="237.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="30.0" prefWidth="200.0" styleClass="orangeButton" stylesheets="@CSS.css" text="LOG IN">
