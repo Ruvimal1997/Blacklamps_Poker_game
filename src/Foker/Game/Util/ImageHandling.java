@@ -67,7 +67,8 @@ public class ImageHandling {
 
     public static final String getImage(String sCard ) {
 
-        String sImageName ="Hide.png";// "Hide image" defualt
+        // "Hide image" default
+        String sImageName="/Images/CardHide.png";
 
         switch(sCard) {
 
@@ -125,7 +126,7 @@ public class ImageHandling {
             case "KS" :sImageName = Sk;break;
 
             default:
-                sImageName ="Hide.png";break;
+                sImageName ="/Images/CardHide.png";break;
         }
         return sImageName;
     }
