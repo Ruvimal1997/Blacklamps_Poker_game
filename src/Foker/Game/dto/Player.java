@@ -28,7 +28,7 @@ public class Player {
         return name.getReadOnlyProperty();
     }
 
-    public void giveCard(Card card){
+    public void changeCard(Card card){
         playerHand.add(card);
     }
 
