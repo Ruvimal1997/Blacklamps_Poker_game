@@ -67,7 +67,7 @@ public class ImageHandling {
 
     public static final String getImage(String sCard ) {
 
-        // "Hide image" default
+        // "Hide image default
         String sImageName="/Images/CardHide.png";
 
         switch(sCard) {
@@ -81,7 +81,7 @@ public class ImageHandling {
             case "7H" :sImageName = H7;break;
             case "8H" :sImageName = H8;break;
             case "9H" :sImageName = H9;break;
-            case "10H" :sImageName = H10;break;
+            case "10H":sImageName = H10;break;
             case "JH" :sImageName = Hj;break;
             case "QH" :sImageName = Hq;break;
             case "KH" :sImageName = Hk;break;//end
@@ -109,7 +109,7 @@ public class ImageHandling {
             case "7C" :sImageName = C7;break;
             case "8C" :sImageName = C8;break;
             case "9C" :sImageName = C9;break;
-            case "10C" :sImageName = C10;break;
+            case "10C":sImageName = C10;break;
             case "JC" :sImageName = Cj;break;
             case "QC" :sImageName = Cq;break;
             case "KC" :sImageName = Ck;break;//end
@@ -123,7 +123,7 @@ public class ImageHandling {
             case "7S" :sImageName = S7;break;
             case "8S" :sImageName = S8;break;
             case "9S" :sImageName = S9;break;
-            case "10S" :sImageName = S10;break;
+            case "10S":sImageName = S10;break;
             case "JS" :sImageName = Sj;break;
             case "QS" :sImageName = Sq;break;
             case "KS" :sImageName = Sk;break;
