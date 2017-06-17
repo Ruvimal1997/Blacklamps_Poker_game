@@ -38,9 +38,5 @@
 .backButton{
     -fx-background-color:
             linear-gradient(#a9ff1e, #89e619),
-
-
-
             linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
-
 }

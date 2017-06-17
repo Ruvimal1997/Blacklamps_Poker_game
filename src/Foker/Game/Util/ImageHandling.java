@@ -128,8 +128,8 @@ public class ImageHandling {
             case "QS" :sImageName = Sq;break;
             case "KS" :sImageName = Sk;break;
 
-            default:
-                sImageName ="/Images/CardHide.png";break;
+        default:
+            sImageName ="/Images/CardHide.png";break;
         }
         return sImageName;
     }
